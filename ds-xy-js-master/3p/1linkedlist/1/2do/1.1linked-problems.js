@@ -32,7 +32,7 @@
   
   for (let i=0;i<100;i++){
     	let random = Math.floor(Math.random() * 1000 + 1);
-      let n = new Node("name" + random)//next
+      let n = new Node("name" + random)
       p.next = n
       p=n
     	
